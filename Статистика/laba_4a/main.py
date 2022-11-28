@@ -56,7 +56,7 @@ yTF=stat.norm.pdf(xx,loc=mTF,scale=sTF)
 plt.plot(xx,yTN,'-b')
 plt.plot(xx,yTF,'-r')
 
-TN_Edge=37.0
+TN_Edge=37
 xxEdge=[TN_Edge,TN_Edge]
 yyEdge=[0,0.8]
 plt.plot(xxEdge,yyEdge,'-k')
